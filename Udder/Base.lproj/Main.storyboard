@@ -18,27 +18,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeR-qo-BxO">
-                                <rect key="frame" x="154" y="141" width="107" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeR-qo-BxO">
+                                <rect key="frame" x="153.5" y="141" width="107" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Udder where we always Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XZ-KR-7Xe">
-                                <rect key="frame" x="64" y="207" width="287" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Udder where we always Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XZ-KR-7Xe">
+                                <rect key="frame" x="64" y="207" width="295" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Xr-YF-Ecz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="philip-swinburn-Z0tTnl_eOIo" translatesAutoresizingMaskIntoConstraints="NO" id="lka-VG-1T1">
+                                <rect key="frame" x="0.0" y="556" width="414" height="340"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5XZ-KR-7Xe" firstAttribute="centerX" secondItem="lka-VG-1T1" secondAttribute="centerX" constant="4.5" id="44i-PT-WuZ"/>
+                            <constraint firstItem="5XZ-KR-7Xe" firstAttribute="centerX" secondItem="VeR-qo-BxO" secondAttribute="centerX" constant="4.5" id="BDR-JA-A4b"/>
+                            <constraint firstAttribute="bottom" secondItem="lka-VG-1T1" secondAttribute="bottom" id="BEl-AG-nUx"/>
+                            <constraint firstItem="lka-VG-1T1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gf2-P7-7Is"/>
+                            <constraint firstItem="lka-VG-1T1" firstAttribute="top" secondItem="5XZ-KR-7Xe" secondAttribute="bottom" constant="328" id="HcH-uP-ZDn"/>
+                            <constraint firstItem="lka-VG-1T1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R4n-nb-18C"/>
+                            <constraint firstItem="lka-VG-1T1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VsG-kf-OwO"/>
+                            <constraint firstItem="5XZ-KR-7Xe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="Zkw-9b-vtN"/>
+                            <constraint firstItem="5XZ-KR-7Xe" firstAttribute="top" secondItem="VeR-qo-BxO" secondAttribute="bottom" constant="18" id="b19-f1-baq"/>
+                            <constraint firstItem="lka-VG-1T1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dbV-Zv-3Ek"/>
+                            <constraint firstAttribute="bottom" secondItem="lka-VG-1T1" secondAttribute="bottom" id="mA7-HT-yWy"/>
+                            <constraint firstItem="5XZ-KR-7Xe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="207" id="nMc-DK-Dgk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="philip-swinburn-Z0tTnl_eOIo" width="5184" height="3456"/>
+    </resources>
 </document>
